@@ -1,0 +1,129 @@
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background-color: grey;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont {
+    max-width: 1170px;
+    margin: auto;
+    justify-content: center;
+}
+
+.ro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    justify-content: center;
+}
+
+.foo {
+    background-color: #24262b;
+    padding: 70px 0px;
+    justify-content: center;
+}
+
+.focl {
+    width: 25%;
+    padding: 0px 15px;
+    justify-content: center;
+}
+
+.focl h4 {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #24262b;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.focl h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.focl ul li::not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.focl ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transform: all 0.3s ease;
+}
+
+.focl ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.focl .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.focl .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+
+.design {
+    margin-top:5px;
+    background: linear-gradient(to right, #fff 20%, #65C7F7 40%, #0052D4 60%, #fff 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation:animate 2s linear infinite;
+    
+}
+
+h2{
+    font-size: 4em;
+    text-align: center;
+}
+h5
+{
+    font-size: 2em;
+    text-align: center;
+}
+@keyframes animate{
+    to{
+        background-position: 200% center;
+    }
+}
